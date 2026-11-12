@@ -116,3 +116,4 @@ def compute_region_integration(
         "max_brightness": round(max_brightness, 2),
         "histogram": hist_counts.tolist(),
     }
+

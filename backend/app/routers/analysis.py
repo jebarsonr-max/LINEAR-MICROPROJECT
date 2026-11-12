@@ -140,3 +140,4 @@ async def simulate_brightness_transformation(
         "percentage_change": sim_res["percentage_change"],
         "transformed_preview_base64": sim_res["transformed_preview_base64"]
     }
+

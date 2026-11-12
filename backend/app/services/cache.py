@@ -22,3 +22,4 @@ def delete_cached_analysis(analysis_id: str) -> bool:
         del _analysis_cache[analysis_id]
         return True
     return False
+

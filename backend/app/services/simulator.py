@@ -56,3 +56,4 @@ def run_simulation(
         "transformed_preview_base64": transformed_preview_base64,
         "transformed_luminance": transformed_lum
     }
+

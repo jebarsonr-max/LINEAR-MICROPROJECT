@@ -76,3 +76,4 @@ def delete_history_item(
     db.commit()
     delete_cached_analysis(analysis_id)
     return {"status": "deleted", "id": analysis_id}
+

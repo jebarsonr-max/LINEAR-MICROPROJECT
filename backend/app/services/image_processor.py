@@ -85,3 +85,4 @@ def decode_and_process_image(file_bytes: bytes, filename: str) -> dict:
         "orig_thumbnail_base64": orig_thumb_base64,
         "filename": filename
     }
+

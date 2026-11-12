@@ -42,3 +42,4 @@ def generate_analysis_report(
             "Content-Disposition": f'attachment; filename="{filename}"'
         }
     )
+
