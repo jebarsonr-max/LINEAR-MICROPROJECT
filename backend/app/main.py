@@ -34,6 +34,7 @@ app.include_router(history.router)
 app.include_router(reports.router)
 
 @app.get("/api/health", response_model=HealthResponse, tags=["Health"])
+@app.get("/health", response_model=HealthResponse, tags=["Health"])
 def health_check():
     return {
         "status": "online",
